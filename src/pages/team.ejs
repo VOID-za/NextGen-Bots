@@ -1,0 +1,254 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.0/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sanitize-html/1.26.0/sanitize-html.min.js"></script>
+    <title>Team - NextGen Bots</title>
+    <%- include ("./parts/head.ejs") %>
+  </head>
+  <%- include ("./parts/navbar.ejs") %>
+  <br><br><br><br>
+    <div class="container">
+          <h2><b>Our Team Members</b></h2>
+          <p>These are all of the people that bring you NextGen Bots.</p><br>
+          <div class="card" style="border-radius:10px;"><a target="blank" href="/users/998763334264442912">
+              <img src="https://cdn.discordapp.com/avatars/998763334264442912/4a03a936e8065457cede932ad818694c.webp" alt="Ishaantek" draggable="false" class="botimg_main">
+              <p class="botname_main" style="height:65px;width:250px;padding:10px;">Ishaantek<small class="text-muted">#0001</small><br>
+                <span style="font-size:15px; font-weight:normal;"><i class="fa-solid fa-crown"></i> NextGen Bots Owner<br><i class="fa-brands fa-github"></i> <a target="blank" target="blank" href="https://github.com/ishaantek" style="text-decoration: underline;font-size:15px; color: white"> Ishaantek</a>
+              </p>
+              </a>
+        </div>
+        <div class="card" style="border-radius:10px;"><a target="blank" href="/users/1076942240791928875">
+          <img src="https://cdn.discordapp.com/avatars/1076942240791928875/d1bd7e1b7309a5f8db330dff1bb35a94.webp" alt="visa2code" draggable="false" class="botimg_main">
+          <p class="botname_main" style="height:65px;width:250px;padding:10px;">visa2code<br>
+            <span style="font-size:15px; font-weight:normal;"><i class="fa-solid fa-brackets-curly"></i> NextGen Bots Developer<br><i class="fa-brands fa-github"></i> <a target="blank" target="blank" href="https://github.com/TejasLamba2006" style="text-decoration: underline;font-size:15px; color: white"> Github</a>
+          </p>
+          </a>
+    </div>
+        <div class="card" style="border-radius:10px;"><a target="blank" href="/users/642085851429339157">
+          <img src="https://cdn.discordapp.com/avatars/642085851429339157/a_66187b585e92b032b8590e58d0e0041d.gif"
+            alt="Ghostly" draggable="false" class="botimg_main">
+          <p class="botname_main" style="height:65px;width:250px;padding:10px;">Ghostly<small
+              class="text-muted">#1616</small><br>
+            <span style="font-size:15px; font-weight:normal;"><i class="fa-solid fa-paintbrush"></i> Designer + Bot Reviewer<br>
+              <i class="fa-solid fa-link"></i> <a target="blank" href="https://devghostly.carrd.co/"
+                style="text-decoration: underline;font-size:15px; color: white"> Ghostly Portfolio</a>
+          </p>
+        </a>
+        </div>
+      </div>
+    </div>
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <%- include("./parts/footer.ejs") %>
+  <style>
+    body {
+      overflow: overlay;
+  }
+    @media screen and (max-width: 757px) {
+      .bot-card-col {
+        margin: 0 30px;
+      }
+    }
+  
+    .card {
+      height: 100px;
+      width: 450px;
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      background-color: rgba(17, 25, 40, 0.75);
+      border-radius: 10px;
+      margin-top: 15px;
+      margin-left: auto;
+      transition: all 0.2s;
+      margin-right: 10px;
+      position: relative;
+      display: inline-block;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      background-color: transparent;
+    }
+  
+    @media only screen and (max-width: 600px) {
+      .botContainer {
+        width: 100%;
+      }
+    }
+  
+    @media only screen and (min-width: 1080px) {
+      .botContainer {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 150px;
+        margin-right: auto;
+        margin-left: auto
+      }
+    }
+  
+    .viewbtn {
+      background-color: #480ddd;
+      height: 40px;
+      width: 150px;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      position: relative;
+      cursor: pointer;
+      bottom: 0;
+      margin-left: 15px;
+      margin-top: 65px;
+    }
+  
+    .text-muted {
+      color: rgba(255, 255, 255, 0.4) !important;
+    }
+
+    .votebtn {
+      background-color: #480ddd;
+      height: 40px;
+      width: 150px;
+      border: none;
+      cursor: pointer;
+      float: right;
+      margin-right: 35px;
+      color: white;
+      border-radius: 5px;
+      position: relative;
+      bottom: 0;
+      margin-top: -40px;
+    }
+  
+    .card_2 {
+      background-color: #001724;
+      width: 350px;
+      text-decoration: none;
+      color: white;
+      border-radius: 10px;
+      transition: all 0.2s;
+      display: inline-block;
+      height: 300px;
+      margin-left: 305px;
+      margin-top: 10px;
+    }
+  
+    .card:hover {
+      top: -7px;
+    }
+  
+    .botname_main {
+      color: white;
+      font-size: 20px;
+      margin-top: -87px;
+      margin-left: 105px;
+      border-radius: 10px;
+      font-weight: 700;
+    }
+  
+    .adbutton {
+      background-color: #DF235B;
+      width: 250px;
+      height: 40px;
+      border: none;
+      overflow: visible;
+      color: white;
+      border-radius: 5px;
+      margin-top: -50px;
+      cursor: pointer;
+  
+    }
+  
+    .botimg_main {
+      width: 85px;
+      height: 85px;
+      border-radius: 100%;
+      margin-top: 5px;
+      margin-left: 10px;
+  
+    }
+  
+    .botdesc_main {
+      color: white;
+      font-size: 15px;
+      border: 10px solid transparent;
+      margin-top: 50px;
+      overflow: hidden;
+      text-align: left;
+  
+    }
+  
+    .bottags_main {
+      color: white;
+      font-size: 15px;
+      border: 10px solid transparent;
+      margin-top: 15;
+      overflow: hidden;
+      text-align: left;
+  
+    }
+  
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+  
+    .container {
+      padding: 2px 14px;
+    }
+  
+    .top_bots {
+      color: ghostwhite;
+      font-size: 25px;
+      margin-left: 50px;
+      margin-top: 150px;
+      position: static
+    }
+  
+    .shortdesc {
+      background-color: #001724;
+      width: 350px;
+      height: 500px;
+      float: right;
+      text-overflow: hidden;
+      margin-right: 50px;
+      margin-top: 100px;
+      border-radius: 5px;
+      position: absolute;
+    }
+  
+    .secondbg {
+      width: 100%;
+      height: 100%;
+      background-color: #001724;
+    }
+  
+    .botimg {
+      border-radius: 100%;
+      width: 150px;
+      height: 150px;
+      float: left;
+      border: 7px solid #001724;
+      margin-top: 50px;
+      margin-left: -300px;
+    }
+  
+    .botname {
+      font-size: 30px;
+      color: white;
+      margin-left: -50px;
+      margin-top: 80px;
+    }
+  
+    .small, small {
+      font-size: 80%;
+      font-weight: 400;
+    }
+
+    a:hover {
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  </style>
